@@ -18,7 +18,7 @@ public class BooleanSource
 	// probability is the likelehood of the event happening
 	
 	/**
-	* The BooleanSource object stores the probability of an even happening
+	* The BooleanSource object stores the probability of an event happening
 	*
 	* @param p
 	* 	the likelehood of the event happening
