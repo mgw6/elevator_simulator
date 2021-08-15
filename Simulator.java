@@ -68,7 +68,7 @@ public class Simulator
 			//System.out.println("End time step " + time);
 		} // end the simLength for loop
 	
-		System.out.println("\nTotal wait time: " + totalWaitTime + " unis of time.");
+		System.out.println("\nTotal wait time: " + totalWaitTime + " units of time.");
 		System.out.println("Total requests completed: "+ rideCount);
 		double averageWait = ((double) totalWaitTime )/ rideCount; // https://stackoverflow.com/questions/3144610/integer-division-how-do-you-produce-a-double
 		System.out.printf("Average wait time: %.2f time units.\n", averageWait);
